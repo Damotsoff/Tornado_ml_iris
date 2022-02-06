@@ -1,0 +1,59 @@
+
+body {
+background: lightblue;
+color: black;
+margin: 15px;
+margin-top: 0;
+}
+
+body,
+input,
+textarea {
+font-family: Georgia, serif;
+font-size: 12pt;
+}
+
+h1,
+h2,
+h3,
+h4 {
+font-family: "Helvetica Nue", Helvetica, Arial, sans-serif;
+margin: 0;
+}
+
+h1 {
+font-size: 20pt;
+}
+
+a{
+color: #00c;
+}
+
+#body {
+max-width: 800px;
+margin: auto;
+}
+
+#header {
+background-color: #3b5998;
+padding: 5px;
+padding-left: 10px;
+padding-right: 10px;
+margin-bottom: 1em;
+}
+
+#header,
+#header a {
+color: white;
+}
+
+#header h1 a {
+text-decoration: none;
+}
+
+#content {
+margin-left: 10px;
+margin-right: 10px;
+}
+
+

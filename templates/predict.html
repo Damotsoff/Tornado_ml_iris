@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block body %}
+<form action="/predict" method="POST">
+  Длина чашелистика(см): <input name="sepal_length" type="text"><br>
+  Ширина чашелистика(см): <input name="sepal_width" type="text"><br>
+  Длина лепестка(см): <input name="petal_length" type="text"><br>
+  Ширина лепестка(см): <input name="petal_width" type="text"><br>
+  {% module xsrf_form_html() %}
+  <input type="submit" value="Предсказать">
+</form>
+<hr>
+<h2>Предсказанный класс: {{ predict }} </h2>
+<hr>
+{% end %}
